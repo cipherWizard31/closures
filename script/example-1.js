@@ -1,8 +1,8 @@
 // example-1.js
 var num1 = 2;
-var num2 = 3;
 
 function sum() {
+    var num2 = 3;
     return function () {
         return num1 + num2;
     };
